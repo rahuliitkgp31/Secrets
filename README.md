@@ -19,7 +19,7 @@ This is a website where users can share their secrets __anonymously__. This webs
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development.  
 
-All the requirements are in package.json.  
+All the package dependencies are in package.json.  
 
 First open terminal at the project root and run:  
 ```
@@ -42,7 +42,7 @@ FACEBOOK_APP_SECRET=your FACEBOOK_APP_SECRET
 TWITTER_CONSUMER_KEY=your TWITTER_CONSUMER_KEY  
 TWITTER_CONSUMER_SECRET=your TWITTER_CONSUMER_SECRET
 
-To run node development server go to terminal and run :
+To run node server go to terminal and run :
 ```
 $ node app.js
 ```
@@ -52,7 +52,7 @@ Run following command in terminal to install nodemon
 ```
 $ npm install nodemon
 ```
-To run node development server using nodemon go to terminal and run :
+To run node server using nodemon go to terminal and run :
 ```
 $ nodemon app.js
 ```
