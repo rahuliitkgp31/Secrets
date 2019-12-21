@@ -30,7 +30,8 @@ next create a .env file at the project root by running following command on term
 $ touch .env
 ```
 
-Put 7 variables in .env file 
+write 7 variables in .env file  
+
 SECRET=you can write anystring here  
 CLIENT_ID=your google ClIENT_ID  
 CLIENT_SECRET=your google CLIENT_SECRET  
