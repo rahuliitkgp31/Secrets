@@ -18,14 +18,16 @@ This is a website where users can share their secrets __anonymously__. This webs
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development.  
+
 All the requirements are in package.json.  
+
 First open terminal at the project root and run:  
 ```
 $ npm install
 ```
 Go to [Google api console](https://console.developers.google.com/) set up a new project with name Secrets fill Authorized redirect URIs with http://localhost:3000/auth/google/secrets and fill URIs with http://localhost:3000 generate CLIENT_ID, CLIENT_SECRET. similary set up a new app on [Facebook for Developers](https://developers.facebook.com/apps/) and generate FACEBOOK_APP_ID, FACEBOOK_APP_SECRET  and generate a TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET from [Twitter Developers](https://developer.twitter.com/).  
 
-next create a .env file at the project root by running following command on terminal.
+next create a .env file by running following command on terminal.
 ```
 $ touch .env
 ```
@@ -46,7 +48,7 @@ $ node app.js
 ```
 or you can use nodemon
 
-Run following command to install nodemon
+Run following command in terminal to install nodemon
 ```
 $ npm install nodemon
 ```
@@ -55,7 +57,8 @@ To run node development server using nodemon go to terminal and run :
 $ nodemon app.js
 ```
 The former starts the server at port 3000  
-Go to http://localhost:3000/ to go to the homepage.
+
+Go to http://localhost:3000/ to go to the homepage.  
 
 ## Author
 * **Rahul Saxena**
